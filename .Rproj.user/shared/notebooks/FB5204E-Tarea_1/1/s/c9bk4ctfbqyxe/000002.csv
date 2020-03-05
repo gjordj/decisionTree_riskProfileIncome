@@ -1,0 +1,3 @@
+"0",""
+"0","importance_variables <- as.data.frame(sort(abs(df.lda$scaling[,1]), decreasing = TRUE))"
+"0","importance_variables"

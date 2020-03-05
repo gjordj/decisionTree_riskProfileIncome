@@ -1,0 +1,3 @@
+"0","# summary(arbol)"
+"0","importance_variables <- as.data.frame(sort(abs(arbol$variable.importance), decreasing = TRUE))"
+"0","importance_variables"

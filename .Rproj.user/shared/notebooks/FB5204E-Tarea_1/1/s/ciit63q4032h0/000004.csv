@@ -1,0 +1,6 @@
+"0","# Podamos el arbol a partir del p?rametro de complejidad"
+"0","arbol.podado <- prune(arbol, cp=0.01 )"
+"0","# Cargamos la librer?a para representar graficamente el ?rbol"
+"0","library(rpart.plot)"
+"0","prp(arbol.podado, type = 2, extra = 104,"
+"0","    fallen.leaves = TRUE, main=""Decision Tree"")"

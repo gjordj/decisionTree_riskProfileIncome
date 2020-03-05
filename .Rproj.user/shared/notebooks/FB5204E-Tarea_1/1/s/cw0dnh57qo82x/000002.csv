@@ -1,0 +1,7 @@
+"0","###########################################"
+"0","# DISCRIMINANT ANALYSIS WITH ALL VARIABLES#"
+"0","###########################################"
+"0","df.lda <- lda(TIPO ~ ., data=df_wrangling)"
+"0","df.lda.values <- predict(df.lda)"
+"0",""
+"0","ldahist(data = df.lda.values$x[,1], g=df_wrangling$TIPO)"
